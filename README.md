@@ -32,9 +32,6 @@ Converted our cases to lowercases using .lowerCase() and as well include them in
 
 <!-- Line 93 -->
 After data(s) were fetched, they were mapped out using the map method for viewing fetched JSON data(s). 
-
-We setUp our keys e.g <div key={spacex.id}></div> to avoid react error messages and as well view our data(s).
-
 <!-- CSS -->
 The stylings were achieved using backdrop filters for our navigation background behaviours, media queries for setting up our tablet and mobile view, use of flexbox for a more creative outlook.
 The use of transitions effects for smooth behaviours whie hovering on fetched data(s) were included. 
