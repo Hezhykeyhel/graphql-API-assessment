@@ -1,0 +1,124 @@
+.navbar {
+  width: 100% !important;
+  background: rgb(255, 250, 250, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.8rem;
+  z-index: 50;
+}
+.navigation_logo {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+.navigation_logo > img {
+  border-radius: 10px;
+}
+.navbar_links {
+  padding-right: 3.5rem;
+}
+.navigation_logo h2 {
+  font-weight: bolder;
+}
+.myLogo {
+  transform: scale(2.5);
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+}
+@media screen and (max-width: 900px) {
+  .navigation_logo {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 540px) {
+  .navigation_logo {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navigation_logo {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+
+.navbar_links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.navbar_links > li {
+  padding-right: 2rem;
+}
+
+.navbar_links > li > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_links > li > a {
+  display: flex;
+  align-items: center;
+}
+.nav_link {
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.nav_link:hover {
+  transition: all ease-in 0.1.5s;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.hamburger_menu {
+  width: 40px;
+  padding-top: 2px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hamburger_menu > div {
+  width: 100%;
+  height: 3px;
+  margin-bottom: 4px;
+  background: #000;
+}
+.hamburger_menu:hover > div {
+  background: var(--blue);
+  transition: 0.2s all ease-in;
+}
+@media screen and (max-width: 970px) {
+  .navbar_links {
+    padding-right: 0.8rem;
+  }
+}
+@media (max-width: 945px) {
+  .navbar_links {
+    display: none;
+  }
+  .hamburger_menu {
+    display: flex;
+  }
+}
+@media (max-width: 540px) {
+  .navbar_logo h2 {
+    font-size: 1.2rem;
+  }
+}

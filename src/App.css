@@ -1,0 +1,55 @@
+:root {
+  --white: rgba(255, 255, 255, 0.5);
+  --blue: rgb(66, 138, 201, 0.5);
+  --orange: #f0951e;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --darkBlue: linear-gradient(to left, #00093c, #11102c);
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 1%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --green: rgb(134, 177, 134);
+  --darkMode-black: rgb(86, 113, 113);
+  --darkMode-dark: rgb(20, 18, 22, 0.5);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: ease-in-out 0.1s all;
+}
+.App {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  overflow-x: hidden !important;
+  color: var(--black);
+}
+.typer{
+  font-weight: bolder;
+  font-size: 16px;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+.loading {
+  position: absolute;
+  transform: translateY(120px);
+}
+
+@media screen and (max-width: 900px) {
+  .App {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
