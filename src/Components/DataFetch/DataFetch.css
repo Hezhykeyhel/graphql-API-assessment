@@ -174,15 +174,40 @@
   }
 }
 @media screen and (max-width: 400px) {
+  .searchBar{
+    width: 100%;
+  }
   .largeContainer {
-    gap: 3rem;
+    width: 100%;
+    margin: 0 !important;
   }
   .contentContainer {
-    width: 17rem;
+    width: 300px;
+    padding: 1rem;
+    font-size: 12px !important;
+  }
+  .styled{
+    margin-top: 5px;
+  }
+  .styled > p{
+    font-size: 14px !important;
+    line-height: 15px;
+  }
+  .container{
+    margin: 10px;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 375px) {
+  .container{
+    margin: 0;
+  }
+  .contentContainer{
+    width: 320px !important;
+  }
   .contentContainer {
     width: 15rem;
   }
