@@ -97,12 +97,20 @@
   .container{
     grid-template-columns: repeat(2, 1fr);
   }
+  .clientName {
+    font-size: 12px !important;
+    font-weight: normal !important;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .container{
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
+  }
+  .clientName {
+    font-size: 12px !important;
+    font-weight: normal !important;
   }
   .contentContainer{
     width: 400px;
@@ -115,11 +123,19 @@
     justify-content: center;
     align-items: center;
   }
+  .clientName {
+    font-size: 12px !important;
+    font-weight: normal !important;
+  }
 }
 @media only screen and (max-width: 850px){
   .container{
     grid-template-columns: repeat(1, 1fr);
     margin: 0 200px;
+  }
+  .clientName {
+    font-size: 12px !important;
+    font-weight: normal !important;
   }
   .contentContainer{
     width: 400px;
