@@ -18,25 +18,22 @@ Datas were fetched using this link "https://rickandmortyapi.com/graphql" and the
 It displays data.data.characters.results and it also catches any error for easy debugging in our codebase.
 
 <!-- Line 62 -->
-An input search field was setup to filter any type of fetched data in our application.
+=> An input search field was setup to filter any type of fetched data in our application.
 Name : Displays those with the name written in the search input. e.g rick
 Status: Displays those with the status alive or dead in the search input. e.g alive searches our data for those alive and the same for the dead too.
 Gender: Entering "Male" or "Female" displays data of those that fell under the category of either. e.g female
 Species: It differentiates between Humans and Robots e.g human displays those that fell under the categories of human.
 
 <!-- LIne 72 -->
-Filtering data(s) were achieved using our current state which was rendered as an empty array in the useState section in order to get our data(s) from the called URL and tenary operators for our conditional statements. 
+=> Filtering data(s) were achieved using our current state which was rendered as an empty array in the useState section in order to get our data(s) from the called URL and tenary operators for our conditional statements. 
 
 <!--Line 75-->
-Converted our cases to lowercases using .lowerCase() and as well include them in the searchTitle state in order to enhance the effectiveness of functionalities while filtering.
+=> Converted our cases to lowercases using .lowerCase() and as well include them in the searchTitle state in order to enhance the effectiveness of functionalities while filtering.
 
 <!-- Line 93 -->
-After data(s) were fetched, they were mapped out using the map method for viewing fetched JSON data(s). 
-
-We setUp our keys e.g <div key={spacex.id}></div> to avoid react error messages and as well view our data(s).
-
+=> After data(s) were fetched, they were mapped out using the map method for viewing fetched JSON data(s). 
 <!-- CSS -->
-The stylings were achieved using backdrop filters for our navigation background behaviours, media queries for setting up our tablet and mobile view, use of flexbox for a more creative outlook.
+=> The stylings were achieved using backdrop filters for our navigation background behaviours, media queries for setting up our tablet and mobile view, use of flexbox for a more creative outlook.
 The use of transitions effects for smooth behaviours whie hovering on fetched data(s) were included. 
 
 
